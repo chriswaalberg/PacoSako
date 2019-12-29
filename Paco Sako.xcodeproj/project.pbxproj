@@ -15,6 +15,19 @@
 		7CDF666F23AFD7E100CEAB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF666D23AFD7E100CEAB4D /* LaunchScreen.storyboard */; };
 		7CDF667A23AFD7E100CEAB4D /* Paco_SakoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF667923AFD7E100CEAB4D /* Paco_SakoTests.swift */; };
 		7CDF668523AFD7E100CEAB4D /* Paco_SakoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF668423AFD7E100CEAB4D /* Paco_SakoUITests.swift */; };
+		7CDF669323AFD7F900CEAB4D /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669223AFD7F900CEAB4D /* Piece.swift */; };
+		7CDF669523AFD80200CEAB4D /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669423AFD80200CEAB4D /* Pawn.swift */; };
+		7CDF669723AFD80700CEAB4D /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669623AFD80700CEAB4D /* Knight.swift */; };
+		7CDF669923AFD80F00CEAB4D /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669823AFD80F00CEAB4D /* Bishop.swift */; };
+		7CDF669B23AFD81D00CEAB4D /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669A23AFD81D00CEAB4D /* Rook.swift */; };
+		7CDF669D23AFD82500CEAB4D /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669C23AFD82500CEAB4D /* King.swift */; };
+		7CDF669F23AFD82A00CEAB4D /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF669E23AFD82A00CEAB4D /* Queen.swift */; };
+		7CDF66A123AFD83A00CEAB4D /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF66A023AFD83A00CEAB4D /* Dummy.swift */; };
+		7CDF66A323AFD84100CEAB4D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF66A223AFD84100CEAB4D /* Game.swift */; };
+		7CDF66A523AFD84600CEAB4D /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF66A423AFD84600CEAB4D /* Board.swift */; };
+		7CDF66A723AFD84D00CEAB4D /* BoardIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF66A623AFD84D00CEAB4D /* BoardIndex.swift */; };
+		7CDF66A923AFD85600CEAB4D /* ExtensionUIPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF66A823AFD85600CEAB4D /* ExtensionUIPiece.swift */; };
+		7CDF66AB23AFD8AE00CEAB4D /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF66AA23AFD8AE00CEAB4D /* StartScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		7CDF668023AFD7E100CEAB4D /* Paco SakoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paco SakoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDF668423AFD7E100CEAB4D /* Paco_SakoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paco_SakoUITests.swift; sourceTree = "<group>"; };
 		7CDF668623AFD7E100CEAB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDF669223AFD7F900CEAB4D /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = SOURCE_ROOT; };
+		7CDF669423AFD80200CEAB4D /* Pawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
+		7CDF669623AFD80700CEAB4D /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		7CDF669823AFD80F00CEAB4D /* Bishop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
+		7CDF669A23AFD81D00CEAB4D /* Rook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rook.swift; sourceTree = "<group>"; };
+		7CDF669C23AFD82500CEAB4D /* King.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		7CDF669E23AFD82A00CEAB4D /* Queen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		7CDF66A023AFD83A00CEAB4D /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		7CDF66A223AFD84100CEAB4D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7CDF66A423AFD84600CEAB4D /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		7CDF66A623AFD84D00CEAB4D /* BoardIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardIndex.swift; sourceTree = "<group>"; };
+		7CDF66A823AFD85600CEAB4D /* ExtensionUIPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIPiece.swift; sourceTree = "<group>"; };
+		7CDF66AA23AFD8AE00CEAB4D /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +125,19 @@
 		7CDF666123AFD7E000CEAB4D /* Paco Sako */ = {
 			isa = PBXGroup;
 			children = (
+				7CDF669223AFD7F900CEAB4D /* Piece.swift */,
+				7CDF66A823AFD85600CEAB4D /* ExtensionUIPiece.swift */,
+				7CDF669423AFD80200CEAB4D /* Pawn.swift */,
+				7CDF669623AFD80700CEAB4D /* Knight.swift */,
+				7CDF669A23AFD81D00CEAB4D /* Rook.swift */,
+				7CDF669823AFD80F00CEAB4D /* Bishop.swift */,
+				7CDF669C23AFD82500CEAB4D /* King.swift */,
+				7CDF669E23AFD82A00CEAB4D /* Queen.swift */,
+				7CDF66A023AFD83A00CEAB4D /* Dummy.swift */,
+				7CDF66A223AFD84100CEAB4D /* Game.swift */,
+				7CDF66A423AFD84600CEAB4D /* Board.swift */,
+				7CDF66A623AFD84D00CEAB4D /* BoardIndex.swift */,
+				7CDF66AA23AFD8AE00CEAB4D /* StartScreen.swift */,
 				7CDF666223AFD7E000CEAB4D /* AppDelegate.swift */,
 				7CDF666423AFD7E000CEAB4D /* SceneDelegate.swift */,
 				7CDF666623AFD7E000CEAB4D /* ViewController.swift */,
@@ -259,8 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDF669B23AFD81D00CEAB4D /* Rook.swift in Sources */,
+				7CDF669323AFD7F900CEAB4D /* Piece.swift in Sources */,
+				7CDF66A123AFD83A00CEAB4D /* Dummy.swift in Sources */,
+				7CDF669D23AFD82500CEAB4D /* King.swift in Sources */,
+				7CDF669923AFD80F00CEAB4D /* Bishop.swift in Sources */,
 				7CDF666723AFD7E000CEAB4D /* ViewController.swift in Sources */,
+				7CDF66A523AFD84600CEAB4D /* Board.swift in Sources */,
 				7CDF666323AFD7E000CEAB4D /* AppDelegate.swift in Sources */,
+				7CDF66A323AFD84100CEAB4D /* Game.swift in Sources */,
+				7CDF66A723AFD84D00CEAB4D /* BoardIndex.swift in Sources */,
+				7CDF66AB23AFD8AE00CEAB4D /* StartScreen.swift in Sources */,
+				7CDF669F23AFD82A00CEAB4D /* Queen.swift in Sources */,
+				7CDF669523AFD80200CEAB4D /* Pawn.swift in Sources */,
+				7CDF669723AFD80700CEAB4D /* Knight.swift in Sources */,
+				7CDF66A923AFD85600CEAB4D /* ExtensionUIPiece.swift in Sources */,
 				7CDF666523AFD7E000CEAB4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
